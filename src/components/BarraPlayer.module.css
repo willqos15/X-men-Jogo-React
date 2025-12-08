@@ -1,0 +1,111 @@
+.barra {
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  height: 53px;
+  width: 295px;
+}
+
+.textobarra {
+  font: normal 18pt "Jersey 10";
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  left: 110px;
+  color:white;
+  text-shadow: 0px 0px 10px black;
+}
+
+.textobarra p{
+  margin: 0;
+  padding: 4.5px;
+}
+
+.vida{
+  position: relative;
+  left: -69px;
+  top: -11px;
+}
+
+.vida div {
+  align-items: center;
+  background: linear-gradient(0deg, green, #37d037);
+  border: 2px solid #076016;
+  border-radius: 5px;
+  display: flex;
+  height: 25px;
+  justify-content: center;
+  left: 65px;
+  position: absolute;
+  top: 5px;
+  transition: 0.5s;
+  width: 300px;
+}
+
+.vida p {
+  position: relative;
+  color: white;
+  font: bold 10pt arial;
+  text-shadow: 0px 0px 10px black;
+}
+
+
+.energia{
+  position: relative;
+  width: 300px;
+  height: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.energia div{
+  position: absolute;
+  left: -4px;
+  top: 28px;
+  height: 25px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+
+.eon{
+  background: linear-gradient(to top, rgb(39, 22, 226), rgb(135, 165, 255));
+  border: 2px solid rgb(11, 0, 128);
+  box-shadow: 0px 0px 5px rgb(0, 4, 255);
+  transition: 0.5s
+}
+
+.eoff{
+  background: linear-gradient(to top, rgb(11, 0, 128), rgb(55, 93, 208));
+  border: 2px solid rgb(11, 0, 128);
+  transition: 0.5s
+}
+
+
+
+.schosed{
+  height: 310px;
+  border-radius: 50px;
+  border: 5px solid white;
+  transition: 0.5s;
+  margin-left: 40px;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.defesa{
+  height: 310px;
+  border-radius: 50px;
+  border: 10px solid rgb(209, 245, 255);
+  box-shadow: 0px 0px 20px rgb(0, 179, 255);
+  transition: 0.5s;
+  margin-left: 40px;
+  margin-right: auto;
+  margin-top: 50px;
+}

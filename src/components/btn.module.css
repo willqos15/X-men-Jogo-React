@@ -1,0 +1,52 @@
+button{position:relative}
+.bton{
+  border-radius: 20px;
+  font: normal 30pt "Jersey 10";
+  background: linear-gradient(to top, #fbff00, #ffb700);
+  border: 3px solid orange;
+  color:rgb(0, 0, 0);
+  transition: 0.5s;
+  margin: 0px 20px;
+  padding: 5px 15px;
+}
+
+.bton:hover {
+    background: rgb(0, 0, 0); 
+    color:rgb(250, 230, 0);
+    border: 3px solid rgb(250, 230, 0);
+    transform: scale(1.2);
+}
+
+.btoff{
+  border-radius: 20px;
+  font: normal 30pt "Jersey 10";
+  background: linear-gradient(to top, #919191, #e5e5e5);
+  border: 3px solid rgb(92, 92, 92);
+  color:rgb(0, 0, 0);
+  margin: 0 20px;
+  padding: 5px 15px;
+}
+
+
+.bton::after, .btoff::after {
+  content: attr(data-tip);
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  font-size: 15pt;
+  padding: 5px 10px;
+  background: rgb(0, 0, 0);
+  color: yellow;
+  opacity: 0;
+  transition: opacity 0.8s 0.2s;
+  white-space: nowrap;
+  font-weight: lighter;
+
+}
+
+.bton[data-tip]:hover::after, .btoff[data-tip]:hover::after {
+  display: block;
+  opacity: 1;
+}

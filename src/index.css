@@ -1,13 +1,118 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #222;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.principal{
+  background-color: black;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 900px;
+  
 }
+
+.tela {
+  background-position:50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 0px;
+  height: 480px;
+  width: 854px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+.titulo {
+ 
+  color: rgb(255, 242, 0);
+  font: normal 25pt "Jersey 10";
+  height: 65px;
+  text-shadow: 0 0 10px #ff8a16;
+  display: flex;
+  align-items: center;
+  justify-content: center;}
+
+.legenda {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.legenda p{
+color:white;
+font: normal 25pt "Jersey 10";
+padding: 0;
+margin: 0;}
+
+
+.painelbotao {
+  background-color: #000;
+  color: #ff0;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+footer{
+  color: white;
+  text-align: center;
+  font: normal 0.9vw Arial;
+}
+
+
+.fimpartida {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  width: 2vw;
+  height: 15vw;
+}
+
+
+
+.turno{
+  color: whitesmoke;
+  font: normal 30pt "Jersey 10";
+  text-shadow: 0px 0px 10px black;
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 5px 60px;
+  border-radius: 20px;
+}
+
+.win{
+  color: whitesmoke;
+  font: normal 60pt "Jersey 10";
+  text-shadow: 0px 0px 10px black;
+  background-color: rgba(0, 173, 12, 0.5);
+  padding: 5px 100px;
+  border-radius: 20px;
+}
+
+.lose{
+  color: whitesmoke;
+  font: normal 60pt "Jersey 10";
+  text-shadow: 0px 0px 10px black;
+  background-color: rgba(207, 0, 0, 0.5);
+  padding: 5px 100px;
+  border-radius: 20px;
+}
+
+
+
+
+
+
