@@ -138,9 +138,30 @@ npm install
 npm start
 ```
 
+## 🗂️ Estrutura do projeto
+
+### src/
+- `App.js`  
+  Componente principal. Controla o fluxo do jogo e as telas.
+
+- `Globais.js`  
+  Armazena estados globais do jogo (vida, energia, turno, ações).
+
+### src/components/
+Componentes reutilizáveis da interface:
+- `BarraPlayer.js` / `BarraEnemy.js` → barras de vida e energia
+- `btn.js` → botões de ação (ataque, defesa, especial)
+- `Selectperson.js` → seleção de personagem
+- `Sobre.js` → tela de informações do projeto
+
+### src/images/
+Imagens dos personagens, cenários e interface do jogo.
+
+
+
 ### Organização de pastas
 
-node_modules/
+```node_modules/
 public/
  └─ index.html
 
@@ -152,8 +173,6 @@ src/
  │   ├─ BarraPlayer.module.css
  │   ├─ Btn.js
  │   ├─ Btn.module.css
- │   ├─ ListSelect.js
- │   ├─ ListSelect.module.css
  │   ├─ SelectPerson.js
  │   ├─ SelectPerson.module.css
  │   ├─ Sobre.js
@@ -166,7 +185,6 @@ src/
  │   ├─ C_Tempestade.png
  │   ├─ C_Wolverine.png
  │   ├─ foto.jpeg
- │   ├─ LOGO.png
  │   ├─ T_Principal.png
  │   ├─ T_Sala_de_perigo.webp
  │   ├─ T_Selecao.jpg
@@ -181,12 +199,14 @@ src/
  ├─ logo.svg
  ├─ reportWebVitals.js
  └─ setupTests.js
+```
 
-package.json  
-package-lock.json  
-README.md
 
-### Autor
-William
-Estudante de desenvolvimento frontend com foco em React
+---
+
+## 👨‍💻 Sobre o autor
+
+Desenvolvido por William  Queiroz
+🔗 Portfólio: (https://queirozdeveloper.vercel.app/)
+
 
