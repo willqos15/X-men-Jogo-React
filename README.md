@@ -101,7 +101,10 @@ Sugestão de combate: focar na defesa até carregar o especial.
 ---
 
 ## 🖼️ Preview
-_(adicione aqui imagem ou GIF do jogo)_
+![Tela Inicial](https://res.cloudinary.com/drklvmtqp/image/upload/v1766689448/Captura_de_tela_2025-12-25_155905_kw2lbi.png)
+![Tela de Seleção](https://res.cloudinary.com/drklvmtqp/image/upload/v1766689406/Captura_de_tela_2025-12-25_160005_ukxjfr.png)
+![Tela de Combate](https://res.cloudinary.com/drklvmtqp/image/upload/v1766689405/Captura_de_tela_2025-12-25_160025_twhm6f.png)
+
 
 ---
 
@@ -133,6 +136,7 @@ git clone https://github.com/willqos15/xmen-atomic-genesis.git
 cd xmen-atomic-genesis
 npm install
 npm start
+```
 
 ### Organização de pastas
 
