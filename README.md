@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+# X-Men: Sala de Perigo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Protótipo de jogo de combate por turnos feito com **React** e **JavaScript**, inspirado em batalhas de treinamento entre personagens dos X-Men.
 
-## Available Scripts
+O foco do projeto é testar mecânicas de turnos, consumo de energia e habilidades distintas por personagem.
 
-In the project directory, you can run:
+## 🎮 Demo
+🔗 Link do jogo: (https://willqos15.github.io/X-menJogoBETA/)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🕹️ Como jogar
 
-### `npm test`
+- Clique em **Jogar**
+- Selecione um personagem entre os **5 disponíveis**
+- Quem inicia o primeiro turno é decidido **aleatoriamente**
+- Cada jogador tem direito a **uma ação por turno**
+- Ações disponíveis:
+  - **Atacar** Retira vida do inimigo
+  - **Defesa** Reduz dano levado no próximo turno
+  - **Especial** Ataque de dano massivo
+  - **Voltar** Cancela a partida
+- Ao passar o mouse sobre as ações, são exibidas **descrições específicas de cada personagem**
+- Algumas ações consomem ou geram **energia** dependendo do personagem
+- Vence quem **zerar a vida** do oponente primeiro
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ⚔️ Sistema de Combate
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🔴 Ciclope
+- Vida Total: 15  
+- Energia Total: 10  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Ação     | Efeito |
+|---------|--------|
+| Ataque  | 6 de dano / consome 2 de energia |
+| Defesa  | Reduz dano recebido / ganha energia |
+| Especial| 12 de dano / consome 10 de energia |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### 🟡 Wolverine
+- Vida Total: 20  
+- Energia Total: 5  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Ação     | Efeito |
+|---------|--------|
+| Ataque  | 3 de dano / ganha 1 de energia |
+| Defesa  | Reduz 1 de dano / ganha 1 de energia |
+| Especial| 5 de dano + cura 5 de vida / custo variável de energia |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### ⚡ Tempestade
+- Vida Total: 15  
+- Energia Total: 10  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| Ação     | Efeito |
+|---------|--------|
+| Ataque  | 6 de dano / ganha 2 de energia |
+| Defesa  | Reduz 2 de dano / reduz energia inimiga em 1 / ganha 2 de energia |
+| Especial| 15 de dano / zera energia inimiga / consome 10 de energia |
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 👿 Noturno
+- Vida Total: 15  
+- Energia Total: 10  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Ação     | Efeito |
+|---------|--------|
+| Ataque  | 2 de dano / ganha 2 de energia |
+| Defesa  | Reduz 4 de dano / ganha 2 de energia |
+| Especial| 8 de dano / consome 5 de energia |
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🛡️ Colossus
+- Vida Total: 25  
+- Energia Total: 10  
 
-### Analyzing the Bundle Size
+| Ação     | Efeito |
+|---------|--------|
+| Ataque  | 4 de dano / ganha 2 de energia |
+| Defesa  | Reduz 3 de dano / ganha 2 de energia |
+| Especial| 10 de dano / consome 10 de energia |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🛠️ Tecnologias utilizadas
+- React
+- JavaScript
+- HTML5
+- CSS3
+- React Icons
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📦 Dependências
+As dependências do projeto são gerenciadas automaticamente via **npm**.  
+Não é necessário instalar bibliotecas manualmente.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## ▶️ Como rodar o projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Requisitos
+- Node.js 16 ou 18
+- npm
 
-### `npm run build` fails to minify
+### Passo a passo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/seu-usuario/xmen-atomic-genesis.git
+cd xmen-atomic-genesis
+npm install
+npm start
+
+
+## 🖼️ Preview
+
