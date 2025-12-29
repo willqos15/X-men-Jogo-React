@@ -4,10 +4,12 @@ Protótipo de jogo de combate por turnos feito com **React** e **JavaScript**, i
 
 O foco do projeto é testar mecânicas de turnos, consumo de energia e habilidades distintas por personagem.
 
+---
+
 ## 🎮 Demo
-🔗 Link do jogo: (https://willqos15.github.io/X-menJogoBETA/)
+🔗 https://willqos15.github.io/X-menJogoBETA/
 
-
+---
 
 ## 🕹️ Como jogar
 
@@ -16,12 +18,12 @@ O foco do projeto é testar mecânicas de turnos, consumo de energia e habilidad
 - Quem inicia o primeiro turno é decidido **aleatoriamente**
 - Cada jogador tem direito a **uma ação por turno**
 - Ações disponíveis:
-  - **Atacar** Retira vida do inimigo
-  - **Defesa** Reduz dano levado no próximo turno
-  - **Especial** Ataque de dano massivo
-  - **Voltar** Cancela a partida
+  - **Atacar** – retira vida do inimigo
+  - **Defesa** – reduz o dano levado no próximo turno
+  - **Especial** – ataque de dano massivo
+  - **Voltar** – cancela a partida
 - Ao passar o mouse sobre as ações, são exibidas **descrições específicas de cada personagem**
-- Algumas ações consomem ou geram **energia** dependendo do personagem
+- Algumas ações consomem ou geram **energia**, dependendo do personagem
 - Vence quem **zerar a vida** do oponente primeiro
 
 ---
@@ -32,11 +34,13 @@ O foco do projeto é testar mecânicas de turnos, consumo de energia e habilidad
 - Vida Total: 15  
 - Energia Total: 10  
 
-| Ação     | Efeito |
-|---------|--------|
-| Ataque  | 6 de dano / consome 2 de energia |
-| Defesa  | Reduz dano recebido / ganha energia |
-| Especial| 12 de dano / consome 10 de energia |
+| Ação | Efeito |
+|-----|--------|
+| Ataque | 6 de dano / consome 2 de energia |
+| Defesa | Reduz dano recebido / ganha energia |
+| Especial | 12 de dano / consome 10 de energia |
+
+Sugestão de combate: variar entre ataque e defesa e guardar o especial para finalizar o oponente.
 
 ---
 
@@ -44,11 +48,13 @@ O foco do projeto é testar mecânicas de turnos, consumo de energia e habilidad
 - Vida Total: 20  
 - Energia Total: 5  
 
-| Ação     | Efeito |
-|---------|--------|
-| Ataque  | 3 de dano / ganha 1 de energia |
-| Defesa  | Reduz 1 de dano / ganha 1 de energia |
-| Especial| 5 de dano + cura 5 de vida / custo variável de energia |
+| Ação | Efeito |
+|-----|--------|
+| Ataque | 3 de dano / ganha 1 de energia |
+| Defesa | Reduz 1 de dano / ganha 1 de energia |
+| Especial | 5 de dano + cura 5 de vida / custo variável de energia |
+
+Sugestão de combate: atacar até liberar o especial e continuar pressionando.
 
 ---
 
@@ -56,11 +62,13 @@ O foco do projeto é testar mecânicas de turnos, consumo de energia e habilidad
 - Vida Total: 15  
 - Energia Total: 10  
 
-| Ação     | Efeito |
-|---------|--------|
-| Ataque  | 6 de dano / ganha 2 de energia |
-| Defesa  | Reduz 2 de dano / reduz energia inimiga em 1 / ganha 2 de energia |
-| Especial| 15 de dano / zera energia inimiga / consome 10 de energia |
+| Ação | Efeito |
+|-----|--------|
+| Ataque | 6 de dano / ganha 2 de energia |
+| Defesa | Reduz 2 de dano / reduz energia inimiga em 1 / ganha 2 de energia |
+| Especial | 15 de dano / zera energia inimiga / consome 10 de energia |
+
+Sugestão de combate: usar defesa contra personagens de alto dano ou dependentes de energia; atacar até carregar o especial.
 
 ---
 
@@ -68,11 +76,13 @@ O foco do projeto é testar mecânicas de turnos, consumo de energia e habilidad
 - Vida Total: 15  
 - Energia Total: 10  
 
-| Ação     | Efeito |
-|---------|--------|
-| Ataque  | 2 de dano / ganha 2 de energia |
-| Defesa  | Reduz 4 de dano / ganha 2 de energia |
-| Especial| 8 de dano / consome 5 de energia |
+| Ação | Efeito |
+|-----|--------|
+| Ataque | 2 de dano / ganha 2 de energia |
+| Defesa | Reduz 4 de dano / ganha 2 de energia |
+| Especial | 8 de dano / consome 5 de energia |
+
+Sugestão de combate: defender até carregar o especial.
 
 ---
 
@@ -80,11 +90,18 @@ O foco do projeto é testar mecânicas de turnos, consumo de energia e habilidad
 - Vida Total: 25  
 - Energia Total: 10  
 
-| Ação     | Efeito |
-|---------|--------|
-| Ataque  | 4 de dano / ganha 2 de energia |
-| Defesa  | Reduz 3 de dano / ganha 2 de energia |
-| Especial| 10 de dano / consome 10 de energia |
+| Ação | Efeito |
+|-----|--------|
+| Ataque | 4 de dano / ganha 2 de energia |
+| Defesa | Reduz 3 de dano / ganha 2 de energia |
+| Especial | 10 de dano / consome 10 de energia |
+
+Sugestão de combate: focar na defesa até carregar o especial.
+
+---
+
+## 🖼️ Preview
+_(adicione aqui imagem ou GIF do jogo)_
 
 ---
 
@@ -112,11 +129,60 @@ Não é necessário instalar bibliotecas manualmente.
 ### Passo a passo
 
 ```bash
-git clone https://github.com/seu-usuario/xmen-atomic-genesis.git
+git clone https://github.com/willqos15/xmen-atomic-genesis.git
 cd xmen-atomic-genesis
 npm install
 npm start
 
+### Organização de pastas
 
-## 🖼️ Preview
+node_modules/
+public/
+ └─ index.html
+
+src/
+ ├─ components/
+ │   ├─ BarraEnemy.js
+ │   ├─ BarraEnemy.module.css
+ │   ├─ BarraPlayer.js
+ │   ├─ BarraPlayer.module.css
+ │   ├─ Btn.js
+ │   ├─ Btn.module.css
+ │   ├─ ListSelect.js
+ │   ├─ ListSelect.module.css
+ │   ├─ SelectPerson.js
+ │   ├─ SelectPerson.module.css
+ │   ├─ Sobre.js
+ │   └─ Sobre.module.css
+ │
+ ├─ images/
+ │   ├─ C_Ciclope.png
+ │   ├─ C_Colossus.png
+ │   ├─ C_Noturno.png
+ │   ├─ C_Tempestade.png
+ │   ├─ C_Wolverine.png
+ │   ├─ foto.jpeg
+ │   ├─ LOGO.png
+ │   ├─ T_Principal.png
+ │   ├─ T_Sala_de_perigo.webp
+ │   ├─ T_Selecao.jpg
+ │   └─ T_Sobre.png
+ │
+ ├─ App.css
+ ├─ App.js
+ ├─ App.test.js
+ ├─ Globais.js
+ ├─ index.css
+ ├─ index.js
+ ├─ logo.svg
+ ├─ reportWebVitals.js
+ └─ setupTests.js
+
+package.json  
+package-lock.json  
+README.md
+
+### Autor
+William
+Estudante de desenvolvimento frontend com foco em React
 
