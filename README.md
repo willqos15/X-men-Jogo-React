@@ -2,7 +2,7 @@
 
 Protótipo de jogo de combate por turnos feito com **React** e **JavaScript**, inspirado em batalhas de treinamento entre personagens dos X-Men.
 
-O foco do projeto é testar mecânicas de turnos, consumo de energia e habilidades distintas por personagem.
+O foco do projeto foi estudar React com um projeto autoral, reforçando o conhecimento na prática da aplicação de Hooks, como useState() e useEffect(). O projeto simula elementos de jogos estilo RPG de turno, com barras de vida e energia de personagens, interatividade e componentes reutilizáveis.
 
 ---
 
@@ -113,7 +113,6 @@ Sugestão de combate: focar na defesa até carregar o especial.
 - JavaScript
 - HTML5
 - CSS3
-- React Icons
 
 ---
 
@@ -132,8 +131,8 @@ Não é necessário instalar bibliotecas manualmente.
 ### Passo a passo
 
 ```bash
-git clone https://github.com/willqos15/xmen-atomic-genesis.git
-cd xmen-atomic-genesis
+git clone https://github.com/willqos15/X-men-Jogo-React.git
+cd X-men-Jogo-React.git
 npm install
 npm start
 ```
@@ -161,44 +160,48 @@ Imagens dos personagens, cenários e interface do jogo.
 
 ### Organização de pastas
 
-```node_modules/
-public/
- └─ index.html
-
-src/
- ├─ components/
- │   ├─ BarraEnemy.js
- │   ├─ BarraEnemy.module.css
- │   ├─ BarraPlayer.js
- │   ├─ BarraPlayer.module.css
- │   ├─ Btn.js
- │   ├─ Btn.module.css
- │   ├─ SelectPerson.js
- │   ├─ SelectPerson.module.css
- │   ├─ Sobre.js
- │   └─ Sobre.module.css
- │
- ├─ images/
- │   ├─ C_Ciclope.png
- │   ├─ C_Colossus.png
- │   ├─ C_Noturno.png
- │   ├─ C_Tempestade.png
- │   ├─ C_Wolverine.png
- │   ├─ foto.jpeg
- │   ├─ T_Principal.png
- │   ├─ T_Sala_de_perigo.webp
- │   ├─ T_Selecao.jpg
- │   └─ T_Sobre.png
- │
- ├─ App.css
- ├─ App.js
- ├─ App.test.js
- ├─ Globais.js
- ├─ index.css
- ├─ index.js
- ├─ logo.svg
- ├─ reportWebVitals.js
- └─ setupTests.js
+```
+│
+├─ build/                   # Arquivos gerados na build do projeto
+├─ node_modules/            # Dependências do projeto
+├─ public/                  # Arquivos públicos estáticos
+│   ├─ favicon.ico          # Ícone do site
+│   ├─ index.html           # Arquivo HTML principal
+│   ├─ logo192.png          # Logo em 192px
+│   ├─ logo512.png          # Logo em 512px
+│   ├─ manifest.json        # Configurações do PWA
+│   ├─ xico.svg             # Ícone SVG
+│   └─ xlogo.svg            # Logo SVG
+│
+├─ src/                     # Código-fonte do projeto
+│   ├─ components/          # Componentes React
+│   │   ├─ BarraEnemy.js
+│   │   ├─ BarraEnemy.module.css
+│   │   ├─ BarraPlayer.js
+│   │   ├─ BarraPlayer.module.css
+│   │   ├─ btn.js
+│   │   ├─ btn.module.css
+│   │   ├─ Selectperson.js
+│   │   ├─ Selectperson.module.css
+│   │   ├─ Sobre.js
+│   │   └─ Sobre.module.css
+│   │
+│   ├─ images/              # Imagens utilizadas no projeto
+│   │
+│   ├─ App.css              # Estilos globais
+│   ├─ App.js               # Componente principal
+│   ├─ App.test.js          # Testes do App
+│   ├─ Globais.js           # Dados globais do jogo
+│   ├─ index.css            # Estilos base
+│   ├─ index.js             # Ponto de entrada da aplicação
+│   ├─ logo.svg             # Logo do projeto
+│   ├─ reportWebVitals.js   # Métricas de performance
+│   └─ setupTests.js        # Configuração de testes
+│
+├─ .gitignore               # Arquivos e pastas ignorados pelo Git
+├─ package-lock.json        # Gerenciamento de dependências exato
+├─ package.json             # Dependências e scripts do projeto
+└─ README.md                # Documentação do projeto
 ```
 
 
