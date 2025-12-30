@@ -1,6 +1,6 @@
 # X-Men: Sala de Perigo
 
-Protótipo de jogo de combate por turnos feito com **React** e **JavaScript**, inspirado em batalhas de treinamento entre personagens dos X-Men.
+Protótipo de jogo de combate por turnos feito com **React**, inspirado em batalhas de treinamento entre personagens dos X-Men.
 
 O foco do projeto foi estudar React com um projeto autoral, reforçando o conhecimento na prática da aplicação de Hooks, como useState() e useEffect(). O projeto simula elementos de jogos estilo RPG de turno, com barras de vida e energia de personagens, interatividade e componentes reutilizáveis.
 
