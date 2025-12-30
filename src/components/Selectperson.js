@@ -5,15 +5,36 @@ import CColossus from "../images/C_Colossus.png"
 import CNoturno from "../images/C_Noturno.png"
 import styles from "./Selectperson.module.css"
 
-function Selectperson({FCiclope, FWolverine, FTempestade, FNoturno, FColossus}){
+function Selectperson({ FCiclope, FWolverine, FTempestade, FNoturno, FColossus }) {
 
-    return(
+    return (
         <div className={styles.select}>
-        <img src={CCiclope} className={styles.sprite} onClick={FCiclope}/>
-        <img src={CWolverine} className={styles.sprite} onClick={FWolverine}/>
-        <img src={CTempestade} className={styles.sprite} onClick={FTempestade}/>
-        <img src={CNoturno} className={styles.sprite} onClick={FNoturno}/>
-        <img src={CColossus} className={styles.sprite} onClick={FColossus}/>
+
+            <div>
+                <img src={CCiclope} className={styles.sprite} onClick={FCiclope} alt="Ciclope" />
+                <p>Ciclope</p>
+            </div>
+
+            <div>
+                <img src={CWolverine} className={styles.sprite} onClick={FWolverine} alt="Wolverine" />
+                <p>Wolverine</p>
+            </div>
+
+            <div>
+                <img src={CTempestade} className={styles.sprite} onClick={FTempestade} alt="Tempestade" />
+                <p>Tempestade</p>
+            </div>
+
+            <div>
+                <img src={CNoturno} className={styles.sprite} onClick={FNoturno} alt="Noturno" />
+                <p>Noturno</p>
+            </div>
+
+            <div>
+                <img src={CColossus} className={styles.sprite} onClick={FColossus} alt="Colossus" />
+                <p>Colossus</p>
+            </div>
+
         </div>
     )
 }
