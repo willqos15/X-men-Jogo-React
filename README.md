@@ -11,6 +11,13 @@ O foco do projeto foi estudar React com um projeto autoral, reforçando o conhec
 
 ---
 
+## 🖼️ Screenshots
+![Tela Inicial](https://res.cloudinary.com/drklvmtqp/image/upload/v1766689448/Captura_de_tela_2025-12-25_155905_kw2lbi.png)
+![Tela de Seleção](https://res.cloudinary.com/drklvmtqp/image/upload/v1766689406/Captura_de_tela_2025-12-25_160005_ukxjfr.png)
+![Tela de Combate](https://res.cloudinary.com/drklvmtqp/image/upload/v1766689405/Captura_de_tela_2025-12-25_160025_twhm6f.png)
+
+---
+
 ## 🕹️ Como jogar
 
 - Clique em **Jogar**
@@ -97,13 +104,6 @@ Sugestão de combate: defender até carregar o especial.
 | Especial | 10 de dano / consome 10 de energia |
 
 Sugestão de combate: focar na defesa até carregar o especial.
-
----
-
-## 🖼️ Preview
-![Tela Inicial](https://res.cloudinary.com/drklvmtqp/image/upload/v1766689448/Captura_de_tela_2025-12-25_155905_kw2lbi.png)
-![Tela de Seleção](https://res.cloudinary.com/drklvmtqp/image/upload/v1766689406/Captura_de_tela_2025-12-25_160005_ukxjfr.png)
-![Tela de Combate](https://res.cloudinary.com/drklvmtqp/image/upload/v1766689405/Captura_de_tela_2025-12-25_160025_twhm6f.png)
 
 
 ---
